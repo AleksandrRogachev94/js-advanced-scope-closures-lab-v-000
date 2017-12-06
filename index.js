@@ -1,7 +1,7 @@
 function produceDrivingRange(blockRange){
   return function(startPoint, endPoint){
     let start = parseInt(startPoint);
-    let end = parseInt(endBlock)
+    let end = parseInt(endPoint)
     let diff = Math.abs(end - start)
     let difference = blockRange - diff
     if(difference > 0){
